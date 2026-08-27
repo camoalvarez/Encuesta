@@ -1,31 +1,31 @@
-# Legacy survey-stimuli archive
+# Survey stimuli for Qualtrics
 
-This repository preserves historical survey-choice images generated for an agricultural-rotations research project.
+This repository hosts survey-choice images and related static assets used by an agricultural-rotations choice experiment implemented in Qualtrics.
 
 ## Status
 
-**Legacy archive — not the canonical research repository or a replication package.**
+**Operational survey-support repository.** The repository remains active because Qualtrics references files hosted here. It is not the canonical research, analysis, or replication repository for the project.
 
-The files in this repository are retained for provenance because they were used as survey stimuli during an earlier stage of the project. The current research workflow, experimental-design code, manifests, empirical analysis, and reproducibility documentation are maintained separately in the canonical project repository.
+## Purpose
 
-## Contents
-
-The repository primarily contains image files representing choice tasks used in the survey. File names encode attributes of the corresponding alternatives and were designed for the original survey workflow.
+The files in this repository are used as survey stimuli and supporting assets for the live or maintained Qualtrics workflow. File names encode attributes of the corresponding alternatives and are preserved to avoid breaking existing survey references.
 
 ## What is not included
 
-This archive does not contain:
+This repository does not contain:
 
 - participant-level research data;
 - the canonical data-processing pipeline;
-- the current experimental-design scripts;
+- the current experimental-design code;
 - the empirical analysis workflow;
-- a complete replication package.
+- a publication-ready replication package.
 
-## Reuse and citation
+## Research workflow
 
-Do not treat this repository as the authoritative source for reproducing or citing the research project. A publication-ready replication package will identify the canonical code, documentation, data-access conditions, and citation information.
+The canonical experimental-design, analysis, provenance, and reproducibility materials are maintained in the separate research repository for the agricultural-rotations choice experiment.
 
-## Preservation policy
+## Maintenance policy
 
-Historical stimuli are preserved here to maintain provenance. They should not be modified or regenerated unless the historical survey design itself is being deliberately reconstructed and independently validated.
+Because Qualtrics may depend on the exact hosted file paths, existing survey assets should not be renamed, moved, or deleted unless the corresponding Qualtrics references are updated and tested first.
+
+When the survey is permanently retired and no further maintenance is required, this repository can be archived while preserving the historical stimuli and URLs for provenance.

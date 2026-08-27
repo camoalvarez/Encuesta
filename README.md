@@ -28,4 +28,6 @@ The canonical experimental-design, analysis, provenance, and reproducibility mat
 
 Because Qualtrics may depend on the exact hosted file paths, existing survey assets should not be renamed, moved, or deleted unless the corresponding Qualtrics references are updated and tested first.
 
+See [`QUALTRICS_MAINTENANCE.md`](QUALTRICS_MAINTENANCE.md) for the safe update procedure and end-of-survey archival policy.
+
 When the survey is permanently retired and no further maintenance is required, this repository can be archived while preserving the historical stimuli and URLs for provenance.
